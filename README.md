@@ -1,12 +1,21 @@
-# Dictaty - Dictation enabled notes
+# Python Discord Summer Code Jam 2022
 
->⚠️ Note: This application contains a FEATURE that will constantly record your audio and use it for speech-to-text we would like to remind you that this is purely a FEATURE and not in any form a bugging device.
+This project was an entry to the Python Discord's Summer Code Jam 2022
+The theme for this code jam was "It's not a bug, it's a feature" and technology proposed to use was websockets.
+
+Our entry for the codejam was Dictaty a notepad app which writes the text to your notepad via dictation. Pretty straightforward, right ?
+
+That's where the websockets and "bug" comes in.
+Our idea was to implement an actual "bug" as in a listening device on your machine.
+The audio from your device would be transmitted to a server and we could listen in to everything that was being said while the app was running. 
+
+# Dictaty - Dictation enabled notes
 
 ## Description
 Dictaty **has the appearance** of a note-taking app with a cool dictation feature.
 Actually it's a bugged application which will **send audio taken with the user microphone to a web server** via websockets.
 The microphone is active all the time, even when the dictation mode in turned off. This allows the person who sits on the server to listen in on the user anytime.
-The application also sends some extra data that helps the server identify the users it's receiving audio from, using values like username, mac address, processor and more. The application aims to convince ignorant users that its audio related functionality is purely a feature; not a bugging device, hence how it links to the theme 'its not a bug, its a feature'.
+The application also sends some extra data that helps the server identify the users it's receiving audio from, using values like username, mac address, processor and more. The application aims to convince ignorant users that its audio related functionality is purely a feature; not a bugging device, hence how it links to the theme. 
 
 ## Installation
 Clone the repository using git -> `git clone https://github.com/Lime-Parallelogram/cj2022-stately-satyrs`
